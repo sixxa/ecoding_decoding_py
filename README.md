@@ -1,14 +1,14 @@
 Encrypt with Caesar cipher
-python main.py --mode encrypt --cipher caesar --shift 3 input.txt output.txt
+.venv/bin/python main.py --mode encrypt --cipher caesar --shift 3 input.txt output.txt
 
 Decrypt with Caesar cipher
-python main.py --mode decrypt --cipher caesar --shift 3 input.txt output.txt
+.venv/bin/python main.py --mode decrypt --cipher caesar --shift 3 input.txt output.txt
 
 Encrypt with Morse code
-python main.py --mode encrypt --cipher morse input.txt output.txt
+.venv/bin/python main.py --mode encrypt --cipher morse input.txt output.txt
 
 Decrypt Morse code
-python main.py --mode decrypt --cipher morse input.txt output.txt
+.venv/bin/python main.py --mode decrypt --cipher morse input.txt output.txt
 
 
 Notes
